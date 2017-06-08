@@ -1,26 +1,39 @@
+body {
+	font-size: 18px;
+	margin: 0;
+	width: 100%;
+
 header {
+	div {
+		background-color: $purple;
+		display: $display-block;
+		margin: $margin-header;
+	}
+
 	img {
 		width: $width-photo;
 		height: $height-photo;
-		margin-left: $margin-left-photo;
+		position: $position-photo;
 		margin-top: $margin-top-photo;
+		margin-left: $margin-left-photo;
 		border-radius: $radius-photo;
 	}
 	h2 {
-	
-		text-align: $text-align;
+		color: $white;
+		margin-left: $margin-title;
 		font-family: $font-family-title;
 		font-weight: $title-weight;
 	}
 	p {
-		color: $fifth-color;
-		text-align: $text-align;
+		color: $white;
+		margin-left: $margin-text;
 		font-family: $font-family-subtitle;
 	}	
 	h3 {
-		text-align: $text-align;
-		font-family: $font-family-subtitle;
+		color: $white;
+		font-family: $font-family-title;
 		font-weight: $title-weight;
+		margin-left: $margin-title;
 	}
 	h5 {
 		font-family: $font-family-subtitle;
@@ -38,10 +51,10 @@ header {
 main {
 	#competences {
 		border: $style-border;
-		border-bottom-color: $blue;
-		border-right-color: $blue;
-		border-top-color: $light-blue;
-		border-left-color: $light-blue;
+		border-bottom-color: $purple;
+		border-right-color: $purple;
+		border-top-color: $light-purple;
+		border-left-color: $light-purple;
 		border-radius: $radius-block;
 		margin-bottom: $margin-bottom-block;
 	}
@@ -50,34 +63,35 @@ main {
 		border: $style-border;
 		border-radius: $radius-block;
 		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $green;
-		border-right-color: $green;
-		border-top-color: $light-green;
-		border-left-color: $light-green;
+		border-bottom-color: $purple;
+		border-right-color: $purple;
+		border-top-color: $light-purple;
+		border-left-color: $light-purple;
 	}
 
 	#formation {
 		border: $style-border;
-		border-color: $green;	
+		border-color: $purple;	
 		border-radius: $radius-block;
 		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $blue;
-		border-right-color: $blue;
-		border-top-color: $light-blue;
-		border-left-color: $light-blue;
+		border-bottom-color: $purple;
+		border-right-color: $purple;
+		border-top-color: $light-purple;
+		border-left-color: $light-purple;
 	}
 
 	#interet {
 		border: $style-border;
-		border-color: $yellow;	
+		border-color: $purple;	
 		border-radius: $radius-block;
 		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $green;
-		border-right-color: $green;
-		border-top-color: $light-green;
-		border-left-color: $light-green;
+		border-bottom-color: $purple;
+		border-right-color: $purple;
+		border-top-color: $light-purple;
+		border-left-color: $light-purple;
 	}
 
 
 
+}
 }

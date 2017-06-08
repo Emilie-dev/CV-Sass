@@ -1,27 +1,27 @@
-$blue: #382FAD;
-$light-blue: #DEDCEE;
-$red: #D32020;
-$light-red:#FF5656;
-$green: #157918;
-$light-green: #AAD8AB;
-$yellow: #F8EA0D;
-$light-yellow:#FFF99B;
-$fifth-color: #585760;
+$purple: #8F17B9;
+$light-purple: #F2D2FC;
+$light-grey: #CBCBCB;
+$white: #FFFFFF;
+
+
 
 /*header*/
-$two-blocks: inline-block;
+$display-block: inline-block;
+$margin-header: 2%;
 
 
 /*title and subtitle*/
-$text-align: center;
-$font-family-title: Andale Mono, monospace;
+$margin-title: 10%;
+$margin-text: 5%;
+$font-family-title: Marvel, sans-serif;
 $font-family-subtitle: Helvetica, sans-serif;
 $title-weight: bold;
 
 /*photo*/
-$width-photo: 15%;
-$height-photo: 15%;
-$margin-left-photo: 42%;
+$width-photo: 18%;
+$height-photo: 18%;
+$position-photo: left;
+$margin-left-photo: 2%;
 $margin-top-photo: 1%;				
 $radius-photo: 10%;	
 $border-radius-photo: 50%; 

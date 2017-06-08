@@ -3,64 +3,74 @@
 /*photo*/
 /*contact*/
 /*blocks*/
-header img {
-  width: 15%;
-  height: 15%;
-  margin-left: 42%;
-  margin-top: 1%;
-  border-radius: 10%; }
-header h2 {
-  text-align: center;
-  font-family: Andale Mono, monospace;
-  font-weight: bold; }
-header p {
-  color: #585760;
-  text-align: center;
-  font-family: Helvetica, sans-serif; }
-header h3 {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-weight: bold; }
-header h5 {
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: right; }
-header ul li {
-  font-family: Helvetica, sans-serif; }
-
-main #competences {
-  border: outset;
-  border-bottom-color: #382FAD;
-  border-right-color: #382FAD;
-  border-top-color: #DEDCEE;
-  border-left-color: #DEDCEE;
-  border-radius: 5%;
-  margin-bottom: 2%; }
-main #experience {
-  border: outset;
-  border-radius: 5%;
-  margin-bottom: 2%;
-  border-bottom-color: #157918;
-  border-right-color: #157918;
-  border-top-color: #AAD8AB;
-  border-left-color: #AAD8AB; }
-main #formation {
-  border: outset;
-  border-color: #157918;
-  border-radius: 5%;
-  margin-bottom: 2%;
-  border-bottom-color: #382FAD;
-  border-right-color: #382FAD;
-  border-top-color: #DEDCEE;
-  border-left-color: #DEDCEE; }
-main #interet {
-  border: outset;
-  border-color: #F8EA0D;
-  border-radius: 5%;
-  margin-bottom: 2%;
-  border-bottom-color: #157918;
-  border-right-color: #157918;
-  border-top-color: #AAD8AB;
-  border-left-color: #AAD8AB; }
+body {
+  font-size: 18px;
+  margin: 0;
+  width: 100%; }
+  body header div {
+    background-color: #8F17B9;
+    display: inline-block;
+    margin: 2%; }
+  body header img {
+    width: 18%;
+    height: 18%;
+    position: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    border-radius: 10%; }
+  body header h2 {
+    color: #FFFFFF;
+    margin-left: 10%;
+    font-family: Marvel, sans-serif;
+    font-weight: bold; }
+  body header p {
+    color: #FFFFFF;
+    margin-left: 5%;
+    font-family: Helvetica, sans-serif; }
+  body header h3 {
+    color: #FFFFFF;
+    font-family: Marvel, sans-serif;
+    font-weight: bold;
+    margin-left: 10%; }
+  body header h5 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right; }
+  body header ul li {
+    font-family: Helvetica, sans-serif; }
+  body main #competences {
+    border: outset;
+    border-bottom-color: #8F17B9;
+    border-right-color: #8F17B9;
+    border-top-color: #F2D2FC;
+    border-left-color: #F2D2FC;
+    border-radius: 5%;
+    margin-bottom: 2%; }
+  body main #experience {
+    border: outset;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    border-bottom-color: #8F17B9;
+    border-right-color: #8F17B9;
+    border-top-color: #F2D2FC;
+    border-left-color: #F2D2FC; }
+  body main #formation {
+    border: outset;
+    border-color: #8F17B9;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    border-bottom-color: #8F17B9;
+    border-right-color: #8F17B9;
+    border-top-color: #F2D2FC;
+    border-left-color: #F2D2FC; }
+  body main #interet {
+    border: outset;
+    border-color: #8F17B9;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    border-bottom-color: #8F17B9;
+    border-right-color: #8F17B9;
+    border-top-color: #F2D2FC;
+    border-left-color: #F2D2FC; }
 
 /*# sourceMappingURL=style.css.map */
