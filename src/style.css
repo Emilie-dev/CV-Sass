@@ -1,0 +1,66 @@
+/*header*/
+/*title and subtitle*/
+/*photo*/
+/*contact*/
+/*blocks*/
+header img {
+  width: 15%;
+  height: 15%;
+  margin-left: 42%;
+  margin-top: 1%;
+  border-radius: 10%; }
+header h2 {
+  text-align: center;
+  font-family: Andale Mono, monospace;
+  font-weight: bold; }
+header p {
+  color: #585760;
+  text-align: center;
+  font-family: Helvetica, sans-serif; }
+header h3 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold; }
+header h5 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+header ul li {
+  font-family: Helvetica, sans-serif; }
+
+main #competences {
+  border: outset;
+  border-bottom-color: #382FAD;
+  border-right-color: #382FAD;
+  border-top-color: #DEDCEE;
+  border-left-color: #DEDCEE;
+  border-radius: 5%;
+  margin-bottom: 2%; }
+main #experience {
+  border: outset;
+  border-radius: 5%;
+  margin-bottom: 2%;
+  border-bottom-color: #157918;
+  border-right-color: #157918;
+  border-top-color: #AAD8AB;
+  border-left-color: #AAD8AB; }
+main #formation {
+  border: outset;
+  border-color: #157918;
+  border-radius: 5%;
+  margin-bottom: 2%;
+  border-bottom-color: #382FAD;
+  border-right-color: #382FAD;
+  border-top-color: #DEDCEE;
+  border-left-color: #DEDCEE; }
+main #interet {
+  border: outset;
+  border-color: #F8EA0D;
+  border-radius: 5%;
+  margin-bottom: 2%;
+  border-bottom-color: #157918;
+  border-right-color: #157918;
+  border-top-color: #AAD8AB;
+  border-left-color: #AAD8AB; }
+
+/*# sourceMappingURL=style.css.map */
