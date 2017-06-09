@@ -1,14 +1,14 @@
-$purple: #8F17B9;
+$purple: #651897;
 $light-purple: #F2D2FC;
 $light-grey: #CBCBCB;
 $white: #FFFFFF;
-
+$background-image: url(https://cdn.pixabay.com/photo/2016/11/30/09/08/white-1872242_960_720.jpg);
 
 
 /*header*/
 $display-block: inline-block;
-$margin-header: 2%;
-
+$general-width: 100%;
+$general-margin: 0;
 
 /*title and subtitle*/
 $margin-title: 10%;
@@ -16,20 +16,33 @@ $margin-text: 5%;
 $font-family-title: Marvel, sans-serif;
 $font-family-subtitle: Helvetica, sans-serif;
 $title-weight: bold;
+$title-width: 38%;
+$title-height: 100%;
+$text-align-title: center;
 
 /*photo*/
 $width-photo: 18%;
 $height-photo: 18%;
-$position-photo: left;
-$margin-left-photo: 2%;
 $margin-top-photo: 1%;				
 $radius-photo: 10%;	
 $border-radius-photo: 50%; 
+$margin-left-photo: 5%;
 
-/*contact*/
+/*left*/
 $position-contact: right;
+$h6-font-size: 90%;
 
-/*blocks*/
-$style-border: outset;
-$radius-block: 5%;
-$margin-bottom-block: 2%;	
+/*border*/
+$style-border: inset;
+$radius-block: 5%;	
+$border-color: #68391F;
+
+/*#message*/
+$text-align-message: center;
+$message-width: 48%;
+$message-margin-left: 30%;
+$message-font-family: Shadows Into Light, cursive;
+
+/*block-left*/
+$block-width-left: 40%;
+

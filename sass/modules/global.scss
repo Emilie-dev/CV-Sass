@@ -1,97 +1,153 @@
 body {
 	font-size: 18px;
-	margin: 0;
-	width: 100%;
+	margin: $general-margin;
+	width: $general-width;
+	font-family: $font-family-subtitle;
 
-header {
-	div {
-		background-color: $purple;
-		display: $display-block;
-		margin: $margin-header;
-	}
-
-	img {
-		width: $width-photo;
-		height: $height-photo;
-		position: $position-photo;
-		margin-top: $margin-top-photo;
-		margin-left: $margin-left-photo;
-		border-radius: $radius-photo;
-	}
-	h2 {
-		color: $white;
-		margin-left: $margin-title;
-		font-family: $font-family-title;
-		font-weight: $title-weight;
-	}
-	p {
-		color: $white;
-		margin-left: $margin-text;
-		font-family: $font-family-subtitle;
-	}	
-	h3 {
-		color: $white;
-		font-family: $font-family-title;
-		font-weight: $title-weight;
-		margin-left: $margin-title;
-	}
-	h5 {
-		font-family: $font-family-subtitle;
-		font-weight: $title-weight;
-		text-align: $position-contact;
-	}
-	ul {
-	li {
+	header {
+		.container {
+	 		background-color: $purple;
+	 		width: $general-width; 
+		}
+		.color {
+			background-color: $purple;
+		}
+		img {
+			width: $width-photo;
+			height: $height-photo;
+			margin-top: $margin-top-photo;
+			border-radius: $radius-photo;
+			margin-left: $margin-left-photo;		
+		}
+		h2 {
+			font-family: $font-family-title;
+			font-weight: $title-weight;
+			text-align: $text-align-title;
+			color: $white;
+		}
+		p {
 		font-family: $font-family-subtitle;
 		}
-	}
-	
-}
-
-main {
-	#competences {
-		border: $style-border;
-		border-bottom-color: $purple;
-		border-right-color: $purple;
-		border-top-color: $light-purple;
-		border-left-color: $light-purple;
-		border-radius: $radius-block;
-		margin-bottom: $margin-bottom-block;
-	}
-
-	#experience {
-		border: $style-border;
-		border-radius: $radius-block;
-		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $purple;
-		border-right-color: $purple;
-		border-top-color: $light-purple;
-		border-left-color: $light-purple;
-	}
-
-	#formation {
-		border: $style-border;
-		border-color: $purple;	
-		border-radius: $radius-block;
-		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $purple;
-		border-right-color: $purple;
-		border-top-color: $light-purple;
-		border-left-color: $light-purple;
+		h3 {
+			font-family: $font-family-title;
+			font-weight: $title-weight;
+			margin: $general-margin;
+			text-align: $text-align-title;	
+			color: $white;	
+		}
+		h6 {
+			font-size: $h6-font-size;
+			margin: $general-margin;
+			text-align: $text-align-title;
+			color: $white;		
+		}
+		strong {
+			color: $white;
+		}
+		.left {
+		    width: $title-width;
+		    height: $title-height;
+		    float: left;
+		    margin-left: 30%;
+		    margin-top: -15%;
+		    text-align: $text-align-title;
+		}    
+		.right {
+		    width: $title-width;
+		    height: $title-height;		
+		    float: right;
+		    margin-right: 1%;     
+		    text-align: $text-align-title;  
+		}	
 	}
 
-	#interet {
-		border: $style-border;
-		border-color: $purple;	
-		border-radius: $radius-block;
-		margin-bottom: $margin-bottom-block;
-		border-bottom-color: $purple;
-		border-right-color: $purple;
-		border-top-color: $light-purple;
-		border-left-color: $light-purple;
+	main {
+		background-image: $background-image;
+
+		h3 {
+			font-weight: $title-weight;
+			font-size: 25px;
+			text-decoration: underline white;
+		}
+
+		#message {
+				width: $message-width;
+				margin-left: $message-margin-left;
+			p {
+				font-family: $message-font-family;
+				text-align: $text-align-message;
+			}
+		}
+
+		#technos {
+			border: $style-border;
+			border-bottom-color: $purple;
+			border-right-color: $purple;
+			border-top-color: $light-purple;
+			border-left-color: $light-purple;
+			border-radius: $radius-block;
+
+			h3 {
+				text-align: $text-align-title;
+			}
+		}
+
+		#competences {
+			background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+			border: $style-border;
+			border-color: $border-color;
+			border-width: thick;
+			width: $block-width-left;
+			float: left;
+			margin-left: 5%;
+			margin-top: 2%;
+			text-align: $text-align-title;
+			color: $white;
+			font-family: 'Coming Soon', cursive;
+		}
+
+		#experience {
+			background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+			border: $style-border;
+			border-color: $border-color;
+			border-width: thick;
+			width: 40%;
+			float: right;
+			margin-right: 5%;
+			margin-top: 2%;
+			text-align: $text-align-title;
+			color: $white;
+			font-family: 'Coming Soon', cursive;
+
+		}
+
+		#formation {
+			border: $style-border;
+			border-color: $purple;	
+			border-radius: $radius-block;
+			border-bottom-color: $purple;
+			border-right-color: $purple;
+			border-top-color: $light-purple;
+			border-left-color: $light-purple;
+			margin-top: 30%;
+		}
+
 	}
 
+	footer {
+		/*background-image: $background-image;*/
+		background-color: $purple;
 
+		#interet {
+			 
+			 h3 {
+			 	font-family: $font-family-title;
+				font-weight: $title-weight;
+				margin: $general-margin;
+				text-align: $text-align-title;	
+				color: $white;	
 
-}
+			 }
+		}
+	}
 }
