@@ -3,14 +3,18 @@ body {
 	margin: $general-margin;
 	width: $general-width;
 	font-family: $font-family-subtitle;
-
+	background-image: $background-image;
 	header {
 		.container {
 	 		background-color: $purple;
 	 		width: $general-width; 
 		}
 		.color {
-			background-color: $purple;
+			/*background-color: $purple;*/
+			background-image: $border-background-image;
+			border: $style-border;
+			border-color: $border-color;
+			border-width: thick;
 		}
 		img {
 			width: $width-photo;
@@ -55,14 +59,13 @@ body {
 		.right {
 		    width: $title-width;
 		    height: $title-height;		
-		    float: right;
-		    margin-right: 1%;     
+		    float: right;     
 		    text-align: $text-align-title;  
 		}	
 	}
 
 	main {
-		background-image: $background-image;
+		
 
 		h3 {
 			font-weight: $title-weight;
@@ -71,83 +74,104 @@ body {
 		}
 
 		#message {
+				background-image: $border-background-image;
+				border: $style-border;
+			    border-color: $border-color;
+				border-width: thick;
 				width: $message-width;
 				margin-left: $message-margin-left;
-			p {
+				color: $white;
+				font-weight: $title-weight;
 				font-family: $message-font-family;
 				text-align: $text-align-message;
-			}
+				margin-top: $main-margin-top;
+				margin-bottom: 4%;
+			
 		}
 
 		#technos {
+			background-image: $border-background-image;
 			border: $style-border;
-			border-bottom-color: $purple;
-			border-right-color: $purple;
-			border-top-color: $light-purple;
-			border-left-color: $light-purple;
-			border-radius: $radius-block;
-
-			h3 {
-				text-align: $text-align-title;
-			}
+			border-color: $border-color;
+			border-width: $border-width;
+			text-align: $text-align-title;
+			color: $white;
+			font-family: $main-font-family;
+			
 		}
 
 		#competences {
-			background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+			background-image: $border-background-image;
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
 			width: $block-width-left;
 			float: left;
 			margin-left: 5%;
-			margin-top: 2%;
+			margin-top: 4%;
 			text-align: $text-align-title;
 			color: $white;
-			font-family: 'Coming Soon', cursive;
+			font-family: $main-font-family;
 		}
 
 		#experience {
-			background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+			background-image: $border-background-image;
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
 			width: 40%;
 			float: right;
 			margin-right: 5%;
-			margin-top: 2%;
+			margin-top: 4%;
 			text-align: $text-align-title;
 			color: $white;
-			font-family: 'Coming Soon', cursive;
-
+			font-family: $main-font-family;
 		}
 
 		#formation {
+			background-image: $border-background-image;
 			border: $style-border;
-			border-color: $purple;	
-			border-radius: $radius-block;
-			border-bottom-color: $purple;
-			border-right-color: $purple;
-			border-top-color: $light-purple;
-			border-left-color: $light-purple;
+			border-color: $border-color;
+			border-width: thick;
 			margin-top: 30%;
+			margin-bottom: 2%;
+			text-align: $text-align-title;
+			color: $white;
+			font-family: $main-font-family;
 		}
 
 	}
 
 	footer {
-		/*background-image: $background-image;*/
-		background-color: $purple;
+		background-image: $background-image;
 
 		#interet {
-			 
+			background-image: $border-background-image;
+			border: $style-border;
+			border-color: $border-color;
+			border-width: thick;
+			margin-top: 4%;
+			margin-bottom: 2%;
+			text-align: $text-align-title;
+			color: $white;
+			font-family: $main-font-family;
+
 			 h3 {
 			 	font-family: $font-family-title;
 				font-weight: $title-weight;
 				margin: $general-margin;
+				margin-bottom: 2%;
 				text-align: $text-align-title;	
 				color: $white;	
+				text-decoration: underline;
 
 			 }
+
+			 i{
+			 	margin-left: 10%;
+			 	margin-bottom: 1%;
+			 }
+
 		}
 	}
 }
