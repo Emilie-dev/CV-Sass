@@ -3,15 +3,14 @@ body {
 	margin: $general-margin;
 	width: $general-width;
 	font-family: $font-family-subtitle;
-	background-image: $background-image;
+	background: url('photo/white-wall.jpg');
 	header {
 		.container {
 	 		background-color: $purple;
 	 		width: $general-width; 
 		}
 		.color {
-			/*background-color: $purple;*/
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
@@ -74,7 +73,7 @@ body {
 		}
 
 		#message {
-				background-image: $border-background-image;
+				background: url('photo/blackboard.jpg');
 				border: $style-border;
 			    border-color: $border-color;
 				border-width: thick;
@@ -90,7 +89,7 @@ body {
 		}
 
 		#technos {
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: $border-width;
@@ -101,7 +100,7 @@ body {
 		}
 
 		#competences {
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
@@ -115,7 +114,7 @@ body {
 		}
 
 		#experience {
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
@@ -129,7 +128,7 @@ body {
 		}
 
 		#formation {
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;
@@ -143,10 +142,10 @@ body {
 	}
 
 	footer {
-		background-image: $background-image;
+		background: url('photo/white-wall.jpg');
 
 		#interet {
-			background-image: $border-background-image;
+			background: url('photo/blackboard.jpg');
 			border: $style-border;
 			border-color: $border-color;
 			border-width: thick;

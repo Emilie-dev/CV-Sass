@@ -2,7 +2,7 @@ $purple: #651897;
 $light-purple: #F2D2FC;
 $light-grey: #CBCBCB;
 $white: #FFFFFF;
-$background-image: url(https://cdn.pixabay.com/photo/2016/11/30/09/08/white-1872242_960_720.jpg);
+$background-image: url(photo/white-wall.jpg);
 
 
 /*header*/
@@ -21,8 +21,8 @@ $title-height: 100%;
 $text-align-title: center;
 
 /*photo*/
-$width-photo: 18%;
-$height-photo: 18%;
+$width-photo: 10%;
+$height-photo: 10%;
 $margin-top-photo: 1%;				
 $radius-photo: 10%;	
 $border-radius-photo: 50%; 
@@ -36,13 +36,18 @@ $h6-font-size: 90%;
 $style-border: inset;
 $radius-block: 5%;	
 $border-color: #68391F;
+$border-width : thick;
+$border-background-image: "photo/blackboard.jpg";
 
 /*#message*/
 $text-align-message: center;
-$message-width: 48%;
-$message-margin-left: 30%;
+$message-width: 50%;
+$message-margin-left: 26%;
 $message-font-family: Shadows Into Light, cursive;
 
 /*block-left*/
 $block-width-left: 40%;
 
+/*main*/
+$main-font-family: Coming Soon, cursive;
+$main-margin-top: 4%;
