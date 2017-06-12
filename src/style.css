@@ -11,12 +11,12 @@ body {
   margin: 0;
   width: 100%;
   font-family: Helvetica, sans-serif;
-  background: url("photo/white-wall.jpg"); }
+  background: url("../photo/white-wall.jpg"); }
   body header .container {
     background-color: #651897;
     width: 100%; }
   body header .color {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick; }
@@ -63,7 +63,7 @@ body {
     font-size: 25px;
     text-decoration: underline white; }
   body main #message {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick;
@@ -76,7 +76,7 @@ body {
     margin-top: 4%;
     margin-bottom: 4%; }
   body main #technos {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick;
@@ -84,7 +84,7 @@ body {
     color: #FFFFFF;
     font-family: Coming Soon, cursive; }
   body main #competences {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick;
@@ -96,7 +96,7 @@ body {
     color: #FFFFFF;
     font-family: Coming Soon, cursive; }
   body main #experience {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick;
@@ -108,7 +108,7 @@ body {
     color: #FFFFFF;
     font-family: Coming Soon, cursive; }
   body main #formation {
-    background: url("photo/blackboard.jpg");
+    background: url("../photo/blackboard.jpg");
     border: inset;
     border-color: #68391F;
     border-width: thick;
@@ -118,9 +118,9 @@ body {
     color: #FFFFFF;
     font-family: Coming Soon, cursive; }
   body footer {
-    background: url("photo/white-wall.jpg"); }
+    background: url("../photo/white-wall.jpg"); }
     body footer #interet {
-      background: url("photo/blackboard.jpg");
+      background: url("../photo/blackboard.jpg");
       border: inset;
       border-color: #68391F;
       border-width: thick;
